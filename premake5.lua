@@ -2,9 +2,8 @@ project "portaudio"
     architecture "x86_64"
     kind "StaticLib"
     language "C"
-    location "build"
     configurations { "Debug", "Release", "Dist" }
-    platforms { "Windows", "Linux" 
+    platforms { "Windows", "Linux" }
 
     objdir "build/obj/%{cfg.buildcfg}"
     targetdir "build/bin/%{cfg.buildcfg}"
