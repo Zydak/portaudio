@@ -13,5 +13,5 @@ project "portaudio"
         {
             "./configure",
             "make",
-            "cp lib/.libs/libportaudio.a ../lib/liblibportaudio.a" -- for some reason it has to be liblib
+            "cp lib/.libs/libportaudio.a ../lib/libportaudio.a"
         }
