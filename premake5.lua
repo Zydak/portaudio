@@ -13,5 +13,5 @@ project "portaudio"
         {
             "./configure",
             "make",
-            "cp lib/.libs/libportaudio.a ../lib/libportaudio.a"
+            "cp lib/.libs/libportaudio.a ../lib/libportaudioPremake.a"
         }
